@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+
+<body>
+
+    <div class="bg">
+        <h1 class="quizes">Answer for this Quizes</h1>
+        <div class="">
+            <div class="queContainer text-center   m-4">
+                <h1 class="quesHead">Questions:</h1>
+                <p class="ques" id="question"><span id="queNo">1</span>.Which of the following option is captial of India?</p>
+                <div class="question_all">
+                    <div class="">
+                        <input name="city" id="opt1" value="Chennai" type="radio" />
+                        <label class="options" id="city1" for="opt1">Chennai</label>
+                    </div>
+                    <div class="">
+                        <input name="city" id="opt2" value="Mumbai" type="radio" />
+                        <label class="options" id="city2" for="opt2">Mumbai</label>
+                    </div>
+                    <div class="">
+                        <input name="city" class="" id="opt3" value="Delhi" type="radio" />
+                        <label class="options" id="city3" for="opt3">Delhi</label>
+                    </div>
+                    <div class="">
+                        <input name="city" class="" id="opt4" value="Kerala" type="radio" />
+                        <label class="options" id="city4" for="opt4">Kerala</label>
+                    </div>
+                    
+                </div>
+
+                <p id="errmsg" class="errmsg"></p>
+                <div class="text-center mt-3">
+                    <button id="nextBtn" class="button">Next</button>
+                    <button id="submitBtn" class="buttonsub button1">Submit</button>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <script src="quiz.js"></script>
+</body>
+
+</html>
